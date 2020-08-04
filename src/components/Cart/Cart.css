@@ -1,0 +1,35 @@
+.cart{
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: .5em 0;
+}
+
+.cart__arrow-back{
+    padding: .2em .4em;
+    background-color: var(--bg);
+    border-radius: var(--border-radius);
+    font-size: 20px;
+}
+
+.cart__text{
+    font-size: 18px;
+}
+
+.cart__icon{
+    font-size: 24px;
+}
+
+.cart__body{
+    padding: 1em;
+}
+
