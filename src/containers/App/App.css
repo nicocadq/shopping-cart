@@ -1,8 +1,7 @@
-.App{
-    max-width: 1160px;
-    min-height: 100vh;
-    margin: 0 auto;
-    height: 100%;
-    position: relative;
+.App {
+  max-width: 1160px;
+  min-height: 100vh;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
 }
-

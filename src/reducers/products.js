@@ -1,16 +1,13 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
-import products from '../productos.json';
+import products from "../productos.json";
 
 const initialState = products;
 
 const productsSlice = createSlice({
-    name: 'products_in_cart',
-    initialState,
-    reducers: {
-
-    },
+  name: "products_in_cart",
+  initialState,
+  reducers: {},
 });
 
- 
 export default productsSlice.reducer;

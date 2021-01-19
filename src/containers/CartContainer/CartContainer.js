@@ -1,10 +1,6 @@
-import React from 'react';
-import Cart from '../../components/Cart';
+import React from "react";
+import Cart from "../../components/Cart";
 
-const CartContainer = () => {
-    return (
-        <Cart/>
-    );
-}
+const CartContainer = () => <Cart />;
 
 export default CartContainer;
